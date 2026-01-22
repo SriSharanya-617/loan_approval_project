@@ -45,7 +45,8 @@ st.write("This system uses **Support Vector Machines (SVM)** to predict loan app
 # ---------------- Load Dataset ----------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("loan.csv")
+    df = pd.read_csv("main/loan.csv")
+
     return df
 
 
